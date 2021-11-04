@@ -1,0 +1,12 @@
+// Common variables / mixins / functions
+@use "~modularscale-sass/stylesheets/modularscale" as * with
+  (
+    $modularscale: (
+      base: 16px,
+      ratio: 1.125
+    )
+  );
+
+@function rhythm($n) {
+  @return 8px * $n;
+}
