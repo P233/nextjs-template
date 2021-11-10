@@ -7,7 +7,9 @@
 }
 
 :root {
-  font: 16px / 1;
+  font-family: $main-font;
+  font-size: 16px;
+  line-height: 1;
 }
 
 body {
