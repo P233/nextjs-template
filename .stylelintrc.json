@@ -2,6 +2,6 @@
   "extends": [
     "@p233/stylelint-config-scss",
     "@p233/stylelint-config-scss/order-bootstrap",
-    "@p233/stylelint-config-scss/no-prefixes"
+    "stylelint-config-css-modules"
   ]
 }
