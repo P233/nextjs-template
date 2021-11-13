@@ -20,7 +20,7 @@
     "svgo-unique-id": "^1.0.0"
   },
   "devDependencies": {
-    "@p233/stylelint-config-scss": "^3.1.0",
+    "@p233/stylelint-config-scss": "^3.1.1",
     "@types/node": "16.11.7",
     "@types/react": "17.0.34",
     "eslint": "7.32.0",
