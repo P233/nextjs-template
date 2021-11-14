@@ -1,5 +1,8 @@
 const fs = require("fs");
-const templates = require("./templates");
+const componentStyles = require("./component.scss");
+const componentMarkup = require("./component.markup");
+const componentIndex = require("./component.index");
+const templates = [componentStyles, componentMarkup, componentIndex];
 
 const componentName = process.argv[2];
 

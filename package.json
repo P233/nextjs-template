@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "generate": "node ./_scripts/create-component",
+    "create": "node ./.template/create",
     "prepare": "husky install"
   },
   "dependencies": {

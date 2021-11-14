@@ -3,7 +3,7 @@ module.exports = (componentName) => ({
 import clsx from "clsx";
 import css from "./${componentName}.module.scss";
 
-export type ${componentName}Props = {
+type ${componentName}Props = {
   children: React.ReactNode;
   className?: string;
 }
