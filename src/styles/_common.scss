@@ -1,10 +1,9 @@
-@use "~modularscale-sass/stylesheets/modularscale" as * with
-  (
-    $modularscale: (
-      base: 16px,
-      ratio: 1.125
-    )
-  );
+@forward "~modularscale-sass/stylesheets/modularscale" with (
+  $modularscale: (
+    base: 16px,
+    ratio: 1.125
+  )
+);
 
 // Vairables
 $main-font: "Roboto", sans-serif;
