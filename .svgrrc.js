@@ -1,10 +1,16 @@
 module.exports = {
+  dimensions: true,
   svgoConfig: {
     plugins: [
-      { removeDimensions: true },
       {
-        uniqueID: require("svgo-unique-id")
-      }
+        name: "preset-default",
+        params: {
+          overrides: {
+            removeViewBox: false
+          }
+        }
+      },
+      "prefixIds"
     ]
   }
 };
