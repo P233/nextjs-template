@@ -1,9 +1,6 @@
 module.exports = (componentName) => ({
-  content: `@use "styles/common" as *;
+  content: `.${componentName} {
 
-.${componentName} {
-
-}
-`,
+}`,
   extension: `.module.scss`
 });
