@@ -1,14 +1,26 @@
-@forward "~modularscale-sass/stylesheets/modularscale" with (
-  $modularscale: (
-    base: 16px,
-    ratio: 1.125
-  )
-);
-
 // Vairables
 $main-font: "Roboto", sans-serif;
 
 // Functions
 @function rhythm($n) {
   @return 8px * $n;
+}
+
+@function ms($n) {
+  $_ratio: 1.125;
+  $_result: 16px;
+
+  @if $n > 0 {
+    @for $i from 1 through $n {
+      $_result: $_result * $_ratio;
+    }
+  }
+
+  @if $n < 0 {
+    @for $i from 1 through math.abs($n) {
+      $_result: math.div($_result, $_ratio);
+    }
+  }
+
+  @return $_result;
 }
