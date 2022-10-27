@@ -4,13 +4,12 @@ import clsx from "clsx";
 import css from "./${componentName}.module.scss";
 
 type ${componentName}Props = {
-  children: React.ReactNode;
   className?: string;
 }
 
-const ${componentName} = ({ className, children }: ${componentName}Props) => {
+const ${componentName} = ({ className }: ${componentName}Props) => {
   return (
-    <div className={clsx(css.${componentName}, className)}>{children}</div>
+    <div className={clsx(css.${componentName}, className)}></div>
   );
 };
 
