@@ -1,5 +1,8 @@
 module.exports = {
   reactStrictMode: true,
+  images: {
+    unoptimized: true
+  },
   sassOptions: {
     prependData: `@use "styles/_common" as *;`
   },
