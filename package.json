@@ -10,27 +10,27 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@svgr/webpack": "^7.0.0",
-    "clsx": "^1.2.1",
-    "next": "13.3.0",
+    "@svgr/webpack": "^8.1.0",
+    "clsx": "^2.0.0",
+    "next": "13.4.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sass": "^1.62.0"
+    "sass": "^1.66.1"
   },
   "devDependencies": {
     "@p233/stylelint-config-scss": "^4.0.0",
-    "@types/node": "^18.15.11",
-    "@types/react": "^18.0.35",
-    "eslint": "^8.38.0",
-    "eslint-config-next": "13.3.0",
-    "eslint-plugin-prettier": "^4.2.1",
+    "@types/node": "^20.5.9",
+    "@types/react": "^18.2.21",
+    "eslint": "^8.48.0",
+    "eslint-config-next": "13.4.19",
+    "eslint-plugin-prettier": "^5.0.0",
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.1",
-    "postcss": "^8.4.21",
-    "postcss-scss": "^4.0.6",
-    "prettier": "^2.8.7",
-    "stylelint": "^15.4.0",
-    "typescript": "^5.0.4"
+    "lint-staged": "^14.0.1",
+    "postcss": "^8.4.29",
+    "postcss-scss": "^4.0.7",
+    "prettier": "^3.0.3",
+    "stylelint": "^15.10.3",
+    "typescript": "^5.2.2"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
