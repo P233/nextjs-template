@@ -1,6 +1,3 @@
-// Vairables
-$main-font: "Roboto", sans-serif;
-
 // Functions
 @function rhythm($n) {
   @return 8px * $n;
