@@ -1,3 +1,4 @@
+import "@fontsource/inter";
 import "styles/root.scss";
 import Head from "next/head";
 import type { AppProps } from "next/app";
