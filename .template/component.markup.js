@@ -1,6 +1,6 @@
 module.exports = (componentName) => ({
   content: `import React from "react";
-import clsx from "clsx";
+import { clsx } from "clsx";
 import css from "./${componentName}.module.scss";
 
 type ${componentName}Props = {
